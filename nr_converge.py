@@ -1,5 +1,5 @@
 # most of this code I found on the internet
-# sorry, but it was a time ago, i don't remember the sources
+# sorry, but it was some time ago, i don't remember the sources
 
 def derivative(f, x, h, *args):
     return (f(x+h,args) - f(x-h,args)) / (2.0*h)  # might want to return a small non-zero if ==0

@@ -18,7 +18,7 @@ def func1(x,*args):    # change this function to whatever you want to get the ze
     return x**2+5*x+2
 
 if __name__ == "__main__":
-    x0=2
+    x0=2        #initial guess
     h = .0001    #desired precision
     res = solve(func1, x0, h)
     print res
